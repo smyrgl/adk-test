@@ -1,0 +1,34 @@
+PODS:
+  - AsyncDisplayKit (1.9.7):
+    - AsyncDisplayKit/PINRemoteImage (= 1.9.7)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.9.7)
+  - AsyncDisplayKit/PINRemoteImage (1.9.7):
+    - AsyncDisplayKit/ASDealloc2MainObject
+    - PINRemoteImage/iOS (>= 2)
+  - PINCache (2.2.1)
+  - PINRemoteImage/Core (2.0.1):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/iOS (2.0.1):
+    - PINRemoteImage/Core
+  - Reveal-iOS-SDK (1.6.2)
+
+DEPENDENCIES:
+  - AsyncDisplayKit (from `https://github.com/facebook/AsyncDisplayKit.git`)
+  - Reveal-iOS-SDK
+
+EXTERNAL SOURCES:
+  AsyncDisplayKit:
+    :git: https://github.com/facebook/AsyncDisplayKit.git
+
+CHECKOUT OPTIONS:
+  AsyncDisplayKit:
+    :commit: b45d34a96de10e9825897b04143d672ce5b9a345
+    :git: https://github.com/facebook/AsyncDisplayKit.git
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: eb762d3bfd3896b2901909ebc24b54c97f32d43c
+  PINCache: ed1f07a85cc6fbf488f8ecc1980b07b49b7b85b5
+  PINRemoteImage: 6feb6da5db9a6cc5e3b9006c8f7b749a7e61be49
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+
+COCOAPODS: 0.39.0
